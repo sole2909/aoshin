@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-size: 20px;
+            line-height: 1.2;
+            content: center;
+            margin: 0px;
+            padding: 0px;
+            font-size: 10px;
+        }
+
+        #all {
+            margin: 0px;
+            padding: auto;
+        }
+
+        #menu {
+            width: 765px;
+            height: 30px;
+            background-color: aqua;
+            float: left;
+        }
+
+        #menu ul {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #menu ul li {
+            list-style: none;
+            float: left;
+        }
+
+        #menu ul li a {
+            /*thẻ a bên trong li*/
+            text-decoration: none;
+            /*bỏ kiểu chữ cơ bản*/
+            display: block;
+            /**/
+            height: 30px;
+            /* độ cao*/
+            line-height: 30px;
+            /* // khoảng cách các từ theo chiều dọc*/
+            padding: 0px 30px 0px 30px;
+            /*khoảng cách giữa các từ*/
+            text-align: center;
+        }
+
+
+        #main {
+            width: 765px;
+            height: 500px;
+            float: left;
+        }
+
+        #mainleft {
+            width: 150px;
+            height: 500px;
+            background-color: blueviolet;
+            float: left;
+        }
+
+        #mainright {
+            width: 615px;
+            height: 500px;
+            background-color: brown;
+            float: left;
+        }
+
+        #button {
+            width: 765px;
+            height: 100px;
+            background-color: chartreuse;
+            float: left;
+        }
+    </style>
+
+    <div id="all">
+        <div id="menu">
+            <ul>
+                <li><a href="/" class="active"><img src="./image/tft.img">tftatics</a>
+                </li>
+                <li><a href="" title="Champions" class="active">Champions</a></li>
+                <li><a href="" title="Tierlist" class="active">Tier list</a></li>
+                <li><a href="" title="Itembuild" class="active">Item build</a></li>
+                <li><a href="" title="Database" class="active">Database</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <div id="mainleft"></div>
+            <div id="mainright"></div>
+        </div>
+        <div id="button"></div>
+    </div>
+
+</body>
+
+</html>
